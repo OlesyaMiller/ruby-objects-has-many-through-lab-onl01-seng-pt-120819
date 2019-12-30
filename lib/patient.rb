@@ -19,7 +19,9 @@ class Patient
   end
   
   def appointments
-    
+    Appointment.all.collect do |appointment|
+      self.appointment
+    end
   end
 end
 
