@@ -20,7 +20,7 @@ class Patient
   
   def appointments
     Appointment.all.collect do |appointment|
-      self.appointment
+      appointment.self 
     end
   end
 end
