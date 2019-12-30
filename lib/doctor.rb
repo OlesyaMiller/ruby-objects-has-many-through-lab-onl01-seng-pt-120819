@@ -2,7 +2,7 @@ class Doctor
   
   @@all = []
   
-  attr_reader 
+  attr_reader :name 
   attr_writer
   
   def initialize(name)
